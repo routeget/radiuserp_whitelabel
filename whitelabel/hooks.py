@@ -3,14 +3,14 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "whitelabel"
-app_title = "RadiusERP"
-app_publisher = "Routeget Technologies"
+app_title = "Whitelabel"
+app_publisher = "Bhavesh Maheshwari"
 app_description = "ERPNext Whitelabel"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "sales@routeget.com"
+app_email = "maheshwaribhavesh95863@gmail.com"
 app_license = "MIT"
-app_logo_url = '/assets/whitelabel/images/radiuserp_logo.svg'
+app_logo_url = '/assets/whitelabel/images/whitelabel_logo.jpg'
 
 # Includes in <head>
 # ------------------
@@ -47,8 +47,8 @@ web_include_css = "/assets/whitelabel/css/whitelabel_web.css"
 # get_website_user_home_page = "whitelabel.utils.get_home_page"
 
 website_context = {
-	"favicon": "/assets/whitelabel/images/radiuserp_logo.svg",
-	"splash_image": "/assets/whitelabel/images/radiuserp_logo.svg"
+	"favicon": "/assets/whitelabel/images/whitelabel_logo.jpg",
+	"splash_image": "/assets/whitelabel/images/whitelabel_logo.jpg"
 }
 after_migrate = ['whitelabel.api.whitelabel_patch']
 

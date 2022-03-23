@@ -10,9 +10,9 @@ from whitelabel import __version__ as version
 setup(
 	name='whitelabel',
 	version=version,
-	description='RadiusERP Branding',
-	author='Routeget Technologies',
-	author_email='sales@routeget.com',
+	description='ERPNext Whitelabel',
+	author='Bhavesh Maheshwari',
+	author_email='maheshwaribhavesh95863@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
